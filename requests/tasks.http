@@ -6,7 +6,19 @@ GET {{api}}
 GET {{api}}/1
 ###
 POST {{api}}
+Content-Type: application/json
+
+{
+    "title": "Task two",
+    "description": "Description two"
+}
 ###
-PUT {{api}}
+PUT {{api}}/1
+Content-Type: application/json
+
+{
+    "title": "Task one",
+    "description": "Description one"
+}
 ###
-DELETE {{api}}
+DELETE {{api}}/1
