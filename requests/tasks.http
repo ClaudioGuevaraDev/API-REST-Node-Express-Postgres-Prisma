@@ -1,0 +1,12 @@
+@api = http://localhost:5000/api/tasks
+
+###
+GET {{api}}
+###
+GET {{api}}/1
+###
+POST {{api}}
+###
+PUT {{api}}
+###
+DELETE {{api}}
